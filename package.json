@@ -9,6 +9,6 @@
   "author": "Raphael Menges",
   "license": "MIT",
   "dependencies": {
-    "robotjs": "^0.6.0"
+    "@nut-tree/nut-js": "^2.0.1"
   }
 }

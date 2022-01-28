@@ -1,10 +1,8 @@
-var robot = require("robotjs");
+const {keyboard} = require("@nut-tree/nut-js");
 
-function emulateKey() {
-  setTimeout(() => {
-    robot.keyTap("k");
-    emulateKey();
-  }, 1);
+async function emulateKey() {
+  keyboard.config.autoDelayMs = 1000;
+  await keyboard.type("abcäüö🤣");
 }
 
 emulateKey();
