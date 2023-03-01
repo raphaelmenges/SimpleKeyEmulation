@@ -9,7 +9,7 @@
   "author": "Raphael Menges",
   "license": "MIT",
   "dependencies": {
-    "@nut-tree/nut-js": "3.0.1-next.20230217194627"
+    "@nut-tree/nut-js": "2.3.1-next.20221115224324"
   },
   "scripts": {
     "index": "node ./index.js"
